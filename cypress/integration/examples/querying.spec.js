@@ -85,6 +85,7 @@ context('Querying', () => {
     })
   })
 
+
   it('best practices - selecting elements', () => {
     // https://on.cypress.io/best-practices#Selecting-Elements
     cy.get('[data-cy=best-practices-selecting-elements]').within(() => {
