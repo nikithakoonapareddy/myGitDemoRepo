@@ -9,6 +9,9 @@ describe("First test", () => {
     /* ==== Test Created with Cypress Studio ==== */
     it('login', function () {
         /* ==== Generated with Cypress Studio ==== */
+
+
+
         cy.get('.ct-header-content > .ct-ul > :nth-child(3) > a').click();
         cy.get('#email').clear().type('karthik@techgeek.co.in');
         cy.get('#password').clear();
